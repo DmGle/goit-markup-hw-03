@@ -431,18 +431,19 @@ img {
 
 .portfolio-img-list{
     display: flex;
-    flex-direction: column;
-    gap: 48px;
-}
-
-.portfolio-row{
-    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .portfolio-img-item{
     list-style-type: none;
+    width: calc((100% - 48px) / 3);
     border: 1px solid var(--cornflower, #E7E9FC);
+}
+
+.container-i-i{
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-i-i-title{
