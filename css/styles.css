@@ -215,15 +215,12 @@ img {
 .main-s-s-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
-}
-
-.main-s-s-list{
-    margin-bottom: 8px;
 }
 
 .main-s-s-item{
     list-style-type: none;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 
 .main-s-s-title{
@@ -432,7 +429,8 @@ img {
 .portfolio-img-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-img-item{
