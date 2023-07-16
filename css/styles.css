@@ -317,6 +317,10 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
+.container-item-text{
+    padding: 32px 16px;
+}
+
 .main-team-names{
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -326,6 +330,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px
 }
 
 .main-f-s-text{
@@ -344,6 +349,7 @@ img {
 .footer{
     background-color: var(--navyblue, #2E2F42);
     min-height: 312px;
+    padding: 100px 0
 }
 
 .container-footer{
@@ -355,6 +361,7 @@ img {
 }
 
 .footer-link{
+    display: inline-block;
     text-decoration: none;
     color: var(--iris, #4D5AE5);
     font-family: 'Raleway', sans-serif;
@@ -364,6 +371,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-span{
@@ -378,6 +386,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px
 }
 
 /* ----------Portfolio */
