@@ -220,7 +220,6 @@ img {
 .main-s-s-item{
     list-style-type: none;
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
 }
 
 .main-s-s-title{
@@ -231,6 +230,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .mains-s-s-text{
