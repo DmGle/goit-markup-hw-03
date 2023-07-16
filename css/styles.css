@@ -35,8 +35,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .margin-top{
@@ -100,11 +100,11 @@ img {
 
 .header-item{
     list-style-type: none;
-    padding: 24px 0;
 }
 
 .conteiner-address .header-list {
     display: flex;
+    padding: 24px 0;
     gap: 40px;
 }
 
@@ -156,10 +156,10 @@ img {
     height: 600px;
     text-align: center;
     background: var(--navyblue, #2E2F42);
+    padding: 188px 0;
 }
 
 .main-hero-title{
-    padding: 188px 0;
     max-width: 496px;
     color: var(--white, #ffffff);
     text-align: center;
@@ -169,10 +169,11 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+
 }
 
 .main-hero-btn{
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
