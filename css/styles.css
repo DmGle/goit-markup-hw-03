@@ -143,11 +143,6 @@ img {
 
 /* ----------Main */
 
-.container-main {
-    display: flex;
-    flex-direction: column;
-}
-
 .main-hero{
     display: flex;
     align-items: center;
@@ -198,22 +193,10 @@ img {
     background-color: var(--ocean, #404BBF);
 }
 
-.container-main-s-s{
-    display: flex;
-    flex-direction: row;
-}
+/* ----------Main (section-2) */
 
-.container-main-s-s ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
-
-.container-main-s-s li {
-    width: calc((100% - 72px) / 4);
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
+.main-second-section{
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -227,6 +210,16 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.main-s-s-list{
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+
+.main-s-s-list{
+    margin-bottom: 8px;
 }
 
 .main-s-s-item{
@@ -253,6 +246,12 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* ----------Main (section-3) */
+
+.main-third-section{
+    padding-bottom: 120px;
+}
+
 .main-t-s-title{
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -263,19 +262,24 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.main-t-s-list{
+    display: flex;
+    gap: 24px;
 }
 
 .main-t-s-item{
     list-style-type: none;
+    width: calc((100% - 48px) / 3);
 }
 
-.container-main-t-s ul{
-    display: flex;
-    justify-content: space-between;
-}
+/* ----------Main (section-4) */
 
 .main-fourth-section{
     background-color: var(--cloud, #F4F4FD);
+    padding: 120px 0;
 }
 
 .main-f-s-title{
@@ -291,10 +295,9 @@ img {
     text-transform: capitalize;
 }
 
-.container-main-f-s ul{
-    margin-bottom: 120px;
+.main-f-s-list{
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .container-main-f-s li{
@@ -311,6 +314,7 @@ img {
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
 }
 
 .main-team-names{
