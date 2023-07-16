@@ -100,11 +100,11 @@ img {
 
 .header-item{
     list-style-type: none;
+    padding: 24px 0;
 }
 
 .conteiner-address .header-list {
     display: flex;
-    padding: 24px 0;
     gap: 40px;
 }
 
