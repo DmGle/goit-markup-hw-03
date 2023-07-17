@@ -85,7 +85,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .header-span {
@@ -111,6 +110,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-address{
@@ -318,6 +318,7 @@ img {
 
 .container-item-text{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .main-team-names{
@@ -442,7 +443,6 @@ img {
 }
 
 .container-i-i{
-    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
